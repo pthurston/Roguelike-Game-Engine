@@ -5,9 +5,21 @@ After using the Unity engine for hobby game development for a few years I decide
 
 This game is written in C++ and uses the libtcod library which provides the rendering features needed for the game. 
 
+#Screenshots:
+
+Main Menu
+![Main Menu](http://i.imgur.com/qyFil1a.png)
+
+Fighting some Orcs!
+![Main Menu](http://i.imgur.com/6Ea6mki.png)
+
+Opening a chest and finding a spell!
+![Opening Chest](http://i.imgur.com/6Ea6mki.png)
+
 Tasks:
 [x] Allow for multiple persistent levels of the dungeon
 [x] Add chests that can contain multiple items
+[ ] Add a minimap
 [ ] Add a special overworld level which allows the player to travel between multiple dungeons
 [ ] Improve monster ai
 [ ] Add light intensity around the player (the map gets darker further away from the player, simulating a torch)
