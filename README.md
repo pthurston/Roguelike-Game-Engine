@@ -5,6 +5,21 @@ After using the Unity engine for hobby game development for a few years I decide
 
 This game is written in C++ and uses the libtcod library which provides the rendering features needed for the game. 
 
+#Play the game!
+The current version of the game can be found
+[here](https://dl.dropboxusercontent.com/u/6917435/PaulT%20RL%20Game%20v0.1.zip)
+
+Game Controls:
+Use the arrow keys to move around
+You will attack by moving into the same square as an enemy
+
+i-open inventory
+	Choose the item you would like to use by pressing the correspong letter, esc to cancel
+o-open chest when standing over a chest
+g-grab an item on the ground beneath you
+d-select an item to drop on the ground
+< or > - move up or down stairs to a new level in the dungeon
+
 #Screenshots:
 
 Main Menu
