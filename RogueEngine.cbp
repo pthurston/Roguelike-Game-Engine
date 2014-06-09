@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RogueEngine" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="./RogueEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wredundant-decls" />
+					<Add option="-Winline" />
+					<Add option="-pedantic" />
+					<Add option="-Wall" />
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-fmessage-length=0" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg -lgmon" />
+					<Add library="..\libtcod-1.5.1\lib\libtcod-mingw-debug.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="./RogueEngine" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="..\libtcod-1.5.1\lib\libtcod-mingw.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pg" />
+			<Add option="-g" />
+			<Add option="-fexceptions" />
+			<Add directory="../libtcod-1.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-pg -lgmon" />
+		</Linker>
+		<Unit filename="src/AI.hpp" />
+		<Unit filename="src/Actor.cpp" />
+		<Unit filename="src/Actor.hpp" />
+		<Unit filename="src/Attacker.cpp" />
+		<Unit filename="src/Attacker.hpp" />
+		<Unit filename="src/BSPGenerator.cpp" />
+		<Unit filename="src/BSPListener.hpp" />
+		<Unit filename="src/BSPTree.cpp" />
+		<Unit filename="src/BSPTree.hpp" />
+		<Unit filename="src/Camera.cpp" />
+		<Unit filename="src/Camera.hpp" />
+		<Unit filename="src/CellularGenerator.cpp" />
+		<Unit filename="src/ConfusedMonsterAI.cpp" />
+		<Unit filename="src/Container.cpp" />
+		<Unit filename="src/Container.hpp" />
+		<Unit filename="src/Destructible.cpp" />
+		<Unit filename="src/Destructible.hpp" />
+		<Unit filename="src/Door.cpp" />
+		<Unit filename="src/Effect.cpp" />
+		<Unit filename="src/Effect.hpp" />
+		<Unit filename="src/Engine.cpp" />
+		<Unit filename="src/Engine.hpp" />
+		<Unit filename="src/GUI.cpp" />
+		<Unit filename="src/GUI.hpp" />
+		<Unit filename="src/Interactable.cpp" />
+		<Unit filename="src/Interactable.hpp" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/Map.hpp" />
+		<Unit filename="src/MapGenerator.cpp" />
+		<Unit filename="src/MapGenerator.hpp" />
+		<Unit filename="src/MonsterAI.cpp" />
+		<Unit filename="src/Persistent.hpp" />
+		<Unit filename="src/Pickable.cpp" />
+		<Unit filename="src/Pickable.hpp" />
+		<Unit filename="src/PlayerAI.cpp" />
+		<Unit filename="src/Rect.cpp" />
+		<Unit filename="src/Rect.hpp" />
+		<Unit filename="src/Stair.cpp" />
+		<Unit filename="src/TargetSelector.cpp" />
+		<Unit filename="src/TargetSelector.hpp" />
+		<Unit filename="src/TemporaryAI.cpp" />
+		<Unit filename="src/Vector2.cpp" />
+		<Unit filename="src/Vector2.hpp" />
+		<Unit filename="src/Weapon.hpp" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
